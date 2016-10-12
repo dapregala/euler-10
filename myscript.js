@@ -5,15 +5,10 @@ var sum = 0;
 for (var i = 2; i<=2000000; i++){
     console.log(i)
     if(isPrime(i, i)){
-        primes.push(i);
+	sum = sum + i;
     }
 }
 
-primes.forEach(function(prime){
-    sum = sum + prime;
-})
-
-console.log("SUM = " + sum);
 
 function isPrime(number, maxLookUp){
 
