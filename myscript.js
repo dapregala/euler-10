@@ -10,6 +10,9 @@ for (var i = 2; i<=2000000; i++){
 }
 
 
+console.log("SUM = " + sum);
+
+
 function isPrime(number, maxLookUp){
 
     for(var i = 2; i <= maxLookUp; i++){
